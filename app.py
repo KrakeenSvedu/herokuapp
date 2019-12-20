@@ -6,7 +6,7 @@ def index():
     titolo="Pagina Iniziale"
     testo="Benvenuto sul sito di Vexteer"
     bottone="Più info"
-    return render_template("base.html", 
+    return render_template("index.html", 
             titolo=titolo,
             testo=testo,
             bottone=bottone)
@@ -16,10 +16,9 @@ def info():
     titolo="Pagina Info"
     testo="Informazioni"
     bottone="Homepage"
-    return render_template("base.html", 
+    return render_template("info.html", 
             titolo=titolo,
-            testo=testo,
-            bottone=bottone)
+            testo=testo)
 
 
 if __name__ == '__main__':
