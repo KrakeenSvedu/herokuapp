@@ -4,7 +4,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     titolo="Pagina Iniziale"
-    testo="Ciao mondo!"
+    testo="Benvenuto sul sito di Vexteer"
     bottone="Più info"
     return render_template("base.html", 
             titolo=titolo,
